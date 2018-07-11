@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="navbar-wrp">
+                    <div class="navbar">
+                        <div class="help-btns">
+                            <div class="menu-toggle">
+                                <input type="checkbox" />
+
+                                <div class="burger">
+
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <ul class="burger-menu" id="menu">
+                                    <a href="#">
+                                        <li>Home</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>About</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>Info</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>Contact</li>
+                                    </a>
+                                </ul>
+                            </div>
+    
+                            <ul class="social-icons">
+                                <li>
+                                    <a href="mailto:mangerovskii@gmail.com" target="_blank">
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                </li>
+    
+                                <li>
+                                    <a href="https://www.facebook.com/profile.php?id=100003713772235" target="_blank">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+    
+                                <li>
+                                    <a href="https://github.com/Aleksander-Mangierowski" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </li>
+    
+                                <li>
+                                    <a href="https://www.linkedin.com/in/mangierowski-aleksander-392b3475/" target="_blank">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+    
+                                <li>
+                                    <a href="https://www.freecodecamp.com/aleksander-mangierowski" target="_blank">
+                                        <i class="fab fa-free-code-camp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+    
+                            <div class="search-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+    
+                        </div>
+    
+                        <nav role="navigation">
+                            <ul class="main-menu">
+                                <li><a href="#">Home</a></li>
+        
+                                <li><a href="#">About</a></li>
+        
+                                <li><a href="#">Info</a></li>
+        
+                                <li><a href="#">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+    
+                    <a href="" class="aHeaderLogo">
+                        <img src="img/logo.png" alt="headerLogo" class="imgHeaderLogo">
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="container">
+                <div class="main-wrp">
+                    <aside>
+                        <div class="sort-by">
+                            Sort by date:
+
+                            <div class="aside-search" id="sort_by_date">
+                                <select data-sort="date">
+                                    <option value="true">Newest first</option>
+
+                                    <option value="false">Oldest first</option>
+                                </select>
+                            
+                                <button class="btn" type="button">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="sort-by">
+                            Sort by tags:
+
+                            <div class="aside-search" id="sort_by_tags">
+                                <select data-sort="tags" multiple size="4"></select>
+                            
+                                <button class="btn" type="button">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+
+                            <p>Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.</p>
+
+                        </div>
+
+                        <div class="instant-search">
+                            Instant search:
+
+                            <div class="aside-search">
+                                <input type="text" id="instant-search">     
+                            </div>
+                        </div>
+                    </aside>
+
+                    <main>
+                        <div class="right-half-row posts"></div>
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-info">
+                    <a href="" class="aHeaderLogo">
+                        <img src="img/logo.png" alt="headerLogo" class="imgHeaderLogo">
+                    </a>
+    
+                    <ul class="footer-social-icons">
+                        <li>
+                            <a href="mailto:mangerovskii@gmail.com" target="_blank">
+                                <i class="fas fa-envelope">
+                                    <span class="network-name"> mangerovskii@gmail.com</span>
+                                </i>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100003713772235" target="_blank">
+                                <i class="fab fa-facebook">
+                                    <span class="network-name"> Facebook</span>
+                                </i>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="https://github.com/Aleksander-Mangierowski" target="_blank">
+                                <i class="fab fa-github">
+                                    <span class="network-name"> GitHub</span>
+                                </i>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="https://www.linkedin.com/in/mangierowski-aleksander-392b3475/" target="_blank">
+                                <i class="fab fa-linkedin">
+                                    <span class="network-name"> Linkedin</span>
+                                </i>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="https://www.freecodecamp.com/aleksander-mangierowski" target="_blank">
+                                <i class="fab fa-free-code-camp">
+                                    <span class="network-name"> freeCodeCamp</span>
+                                </i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="created-by">
+                    created by
+                    <a href="https://codepen.io/Mangierowski/">Aleksander</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <button class="btn only-ten-posts-btn" id="only-ten">Only 10 Posts</button>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

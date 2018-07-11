@@ -1,0 +1,21 @@
+{
+  "name": "dom_bom_api",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Aleksander-Mangierowski/dom_bom_api.git"
+  },
+  "description": "dom_bom_api - BSA_18",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleksander Mangierowski",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "del": "^3.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
